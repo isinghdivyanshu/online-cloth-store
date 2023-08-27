@@ -1,0 +1,65 @@
+h1 {font-size: 2.25em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.75em;}
+h4 {font-size: 1.5em;}
+
+
+header,
+nav,
+section,
+footer {
+  float: left;
+  width: 100%;
+}
+
+
+nav h1 {
+  float: left;
+  font-size: 4.5em;
+  text-transform: uppercase;
+}
+
+
+nav h1 a {color: #000000;}
+.nav-ul {
+  display: flex;
+}
+
+
+header li {width: 20%;}
+header li:not(:first-child) {margin-left: 2%;}
+header .nav-ul a {
+  display: block;
+  background: #ffffff;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+ 
+}
+
+
+section {margin: 1em 0;}
+section h1 {text-transform: uppercase;}
+
+
+.vertical {
+  width: 0;
+  height: 10px;
+}
+
+
+.sec-intro {position: relative;}
+
+
+
+.sec-intro h1 {
+  position: absolute;
+  bottom: .5em;
+  left: .5em;
+  padding: .5em;
+  background: rgba(0,0,0,.5);
+  color: red;
+}
+
+
